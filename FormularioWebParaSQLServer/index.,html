@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head runat="server"> 
+    <title>Formulario ingreso datos a MS SQLServer </title> 
+</head> 
+<body> 
+    <form id="form1" runat="server"> 
+        <div> 
+            <label for="nombre">Nombre:</label> 
+            <input type="text" id="nombre" name="nombre" /> 
+        </div> 
+        <div> 
+            <label for="apellido">Apellido:</label> 
+            <input type="text" id="apellido" name="apellido" /> 
+        </div> 
+        <div> 
+            <label for="email">Email:</label> 
+            <input type="email" id="email" name="email" /> 
+        </div> 
+        <div> 
+            <input type="submit" value="Enviar" /> 
+        </div> 
+    </form> 
+</body> 
+</html>
+/*
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form method="post" action="guardar_datos.aspx">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
+*/
